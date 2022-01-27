@@ -1,7 +1,10 @@
 
-function helloWorld(){
-	console.log('Hello world')
+function getPosts(posts){
+	posts.forEach((post) => {
+	console.log(post)
+	})	
 }
 
-const post = [{name:'John Doe', age:23}]
+const posts = [{name:'John Doe', age:23}, {name:'Susan Wozisky', age:21}, {name:'Amigos Code', age:44}]
+
 
